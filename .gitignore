@@ -1,0 +1,21 @@
+# Kernel build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.order
+*.symvers
+.tmp_versions/
+.*.cmd
+Module.markers
+modules.builtin*
+
+# Cloned/extracted kernel + driver source (too large / not vendored)
+samsung-fullbuild-a217f/
+88x2bu-20210702/
+
+# Editor/OS junk
+.vscode/
+*.swp
+.DS_Store
