@@ -185,3 +185,26 @@ The Linux kernel and the 88x2bu driver are both GPLv2. Samsung's kernel source i
 ## Disclaimer
 
 Rooting, flashing, and running out-of-tree kernel modules can brick your device, void your warranty, and introduce security risks. This repository is provided for educational and personal use only, with no warranty of any kind.
+
+## Proof of working build
+
+**USB adapter detected on the device:**
+![USB adapter detected](docs/images/USBdetected.jpg)
+
+**Kernel module loaded (dmesg):**
+![Module loaded](docs/images/ModuleLoaded.jpg)
+
+**modinfo output:**
+![Modinfo output](docs/images/Modinfo.jpg)
+
+**Adapter lights up / powers on:**
+![Adapter lights up](docs/images/AdapterLightsUp.jpg)
+
+**Monitor mode enabled:**
+![Monitor mode](docs/images/MonitorMode.jpg)
+
+**Monitor mode confirmed via UI tool:**
+![Monitor mode UI](docs/images/MonitorModeUI.jpg)
+
+**Capability testing (packet injection / capture):**
+![Testing capability](docs/images/Testingcapability.jpg)
